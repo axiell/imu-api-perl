@@ -687,7 +687,7 @@ If another sort key was specified its terms would be nested under the tertiary k
 
 ### 3.3.1) The fetch Method
 
-The `IMu::Module` class [fetch](TODO-link-to-reference) method is used to get information from the matching records once the search of a module has been run. The server maintains the set of matching records in a list and the `fetch` method can be used to retrieve any information from any contiguous block of records in the list.
+The `IMu::Module` class `fetch` method is used to get information from the matching records once the search of a module has been run. The server maintains the set of matching records in a list and the `fetch` method can be used to retrieve any information from any contiguous block of records in the list.
 
 #### Arguments
 
@@ -2492,7 +2492,7 @@ The `IMu::Module` class provides methods for inserting new records and for updat
 
 > **NOTE:**
 >
-> By default these operations are restricted by the IMu server. Typically access to these operations is gained by [logging in to the IMu server](#5.1\)-The-login-method). See the [allow-updates](TODO-link-to-config-doc) entry of the server configuration for more information.
+> By default these operations are restricted by the IMu server. Typically access to these operations is gained by [logging in to the IMu server](#5.1\)-The-login-method). See the [allow-updates](CONFIGURATION.md##allow-updates) entry of the server configuration for more information.
 
 ## 6.1) The insert Method
 
